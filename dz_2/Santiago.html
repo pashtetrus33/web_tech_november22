@@ -6,8 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" /> 
     <title>Santiago</title>
+    <script language="JavaScript">
+        'use strict';
+
+        const Pavel = {
+            age: 38,
+            nationality: 'Russian',
+            born: 'Gorkiy',
+            proffesion: 'IT engineer',
+        }
+        
+        alert(`Автор страницы Pavel, его возраст ${Pavel.age}, профессия ${Pavel.proffesion}`)
+        function checkAuthorization() {
+            let username = prompt("Ваше имя?", "");
+            alert("Привет " + username + '!');
+            let password = prompt(`${username} введите пароль доступа к странице:`, "");
+            if (password == "123") 
+            {
+            alert(username + " авторизация пройдена!");}
+            else {
+            alert("Пароль к странице задан неверно, до свидания!");
+            window.close()}
+        }
+        
+        checkAuthorization()
+      </script>
 </head>
 <body>
+
     <h1>О Сантьяго</h1>
     <br>
         <ul>

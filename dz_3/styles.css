@@ -1,0 +1,37 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+img {
+    margin: 10px;
+    padding: 5px;
+    height: 300px;
+    }
+p {
+    color: black;
+    font-family: courier;
+    font-size: 140%;
+    text-align: justify;
+    line-height: 0.9em;
+}
+
+#list {
+    font-size: 120%;
+}
+
+.text {
+    font-size: 140%;
+    color: brown;
+}
+
+ul {
+    line-height: 0.9em;
+}
+
